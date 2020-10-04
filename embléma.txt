@@ -1,0 +1,14 @@
+wn = turtle.Screen()        # creates a graphics window
+alex = turtle.Turtle()# create a turtle named alex
+
+def sokszog(h, n, sz):
+    for i in range (n):
+        alex.color(sz)
+        alex.forward(h)
+        alex.left(360/n)
+        alex.right(120/n)
+sokszog(3, 50, "blue")
+sokszog(6, 25, "red")
+sokszog(9, 40, "green")
+sokszog(10, 45, "black")
+sokszog(12, 40, "blue")
